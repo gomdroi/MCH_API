@@ -1,0 +1,408 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{e8ddd34d-f316-43f3-a371-4ad97b2654d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameNode">
+      <UniqueIdentifier>{96417ea6-a84f-446a-b4c1-b426703b36bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame">
+      <UniqueIdentifier>{26e80509-563a-4838-9c4a-7aae8f8c12e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="singletonBase">
+      <UniqueIdentifier>{642e1bc3-8478-4af0-850a-1e380dbe3e48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Timer">
+      <UniqueIdentifier>{a43b3692-f3fa-4ab1-be9b-fd9cd82366c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UTIL">
+      <UniqueIdentifier>{827b390a-bfdb-4300-9388-b1d30bc5844d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일\소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="액션콜백">
+      <UniqueIdentifier>{a5736c21-24cd-40c7-b31c-88e8e31588fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Functions">
+      <UniqueIdentifier>{793f7bfd-dcbe-4440-9c8c-c8542c1ef2fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{2905fe12-278c-4f2a-a84a-499572ed65fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="image">
+      <UniqueIdentifier>{1211de52-0852-4e01-90cd-7775514bd0fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="iniData">
+      <UniqueIdentifier>{09d38c1e-65b7-4614-852e-d68e354143b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="loading">
+      <UniqueIdentifier>{0d072484-02e1-440f-9798-e64db0c311e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="애니메이션">
+      <UniqueIdentifier>{dd300559-ba31-4dd6-bec5-1d4609cab0d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="이펙트">
+      <UniqueIdentifier>{c177b1b0-222b-4d7f-a7fd-08fadebca7cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="텍스트데이터">
+      <UniqueIdentifier>{d50d8a43-c5b2-4595-af7a-14ed264e5932}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="프로그래스바">
+      <UniqueIdentifier>{a747e338-3633-4338-8355-f5e9e16b49b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\오브젝트">
+      <UniqueIdentifier>{0fcd8240-0ca7-418c-a0da-12ec23796e33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\오브젝트\Cursor">
+      <UniqueIdentifier>{31ef7df1-e87c-43a3-be8a-b9f5b6c83b86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\오브젝트\Unit">
+      <UniqueIdentifier>{461ed4a4-a8c0-45cc-8d09-d87948e02499}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\오브젝트\Item">
+      <UniqueIdentifier>{74518781-8fc5-484c-b7a2-ebfebd96d9dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\오브젝트\Tile">
+      <UniqueIdentifier>{efd2ce15-a016-4a89-b7af-b6b548d95ee5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\오브젝트\UI">
+      <UniqueIdentifier>{69e6ca19-e440-46d3-acd6-e262fe6e5d8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\customAstar">
+      <UniqueIdentifier>{4d9f1468-f3ea-4628-ae48-cfabd52ce8ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\MapTool">
+      <UniqueIdentifier>{19f49620-a97c-4366-a8ce-1e347c0b4868}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\Scenes">
+      <UniqueIdentifier>{a0762982-3fee-4731-9359-e46c400a50ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\Scenes\Stages">
+      <UniqueIdentifier>{972c7645-8fb2-4f0d-9601-038a7f1e097e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="singletonBase.h">
+      <Filter>singletonBase</Filter>
+    </ClInclude>
+    <ClInclude Include="keyManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="gameNode.h">
+      <Filter>gameNode</Filter>
+    </ClInclude>
+    <ClInclude Include="mainGame.h">
+      <Filter>mainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="randomFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>UTIL</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>image</Filter>
+    </ClInclude>
+    <ClInclude Include="imageManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="progressBar.h">
+      <Filter>프로그래스바</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="timeManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="iniData.h">
+      <Filter>iniData</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="soundManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="loading.h">
+      <Filter>loading</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="txtData.h">
+      <Filter>텍스트데이터</Filter>
+    </ClInclude>
+    <ClInclude Include="commonMacroFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="animation.h">
+      <Filter>애니메이션</Filter>
+    </ClInclude>
+    <ClInclude Include="animationManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="effect.h">
+      <Filter>이펙트</Filter>
+    </ClInclude>
+    <ClInclude Include="effectManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="action.h">
+      <Filter>액션콜백</Filter>
+    </ClInclude>
+    <ClInclude Include="actionTest.h">
+      <Filter>액션콜백</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>mainGame\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="stage1.h">
+      <Filter>mainGame\Scenes\Stages</Filter>
+    </ClInclude>
+    <ClInclude Include="allScenes.h">
+      <Filter>mainGame\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="cursor.h">
+      <Filter>mainGame\오브젝트\Cursor</Filter>
+    </ClInclude>
+    <ClInclude Include="objects.h">
+      <Filter>mainGame\오브젝트</Filter>
+    </ClInclude>
+    <ClInclude Include="unitManager.h">
+      <Filter>mainGame\오브젝트\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="unitSet.h">
+      <Filter>mainGame\오브젝트\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="itemSet.h">
+      <Filter>mainGame\오브젝트\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="itemManager.h">
+      <Filter>mainGame\오브젝트\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="mapToolScene.h">
+      <Filter>mainGame\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="tile.h">
+      <Filter>mainGame\오브젝트\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="tileManager.h">
+      <Filter>mainGame\오브젝트\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="mainmenu.h">
+      <Filter>mainGame\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="intro.h">
+      <Filter>mainGame\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="uiManager.h">
+      <Filter>mainGame\오브젝트\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_Set.h">
+      <Filter>mainGame\오브젝트\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_tileInfo.h">
+      <Filter>mainGame\오브젝트\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_command.h">
+      <Filter>mainGame\오브젝트\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="customAstar.h">
+      <Filter>mainGame\customAstar</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_battleinfo.h">
+      <Filter>mainGame\오브젝트\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_turn.h">
+      <Filter>mainGame\오브젝트\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="subMaptool.h">
+      <Filter>mainGame\MapTool</Filter>
+    </ClInclude>
+    <ClInclude Include="subWin.h">
+      <Filter>mainGame\MapTool</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMaptool.h">
+      <Filter>mainGame\MapTool</Filter>
+    </ClInclude>
+    <ClInclude Include="stage3.h">
+      <Filter>mainGame\Scenes\Stages</Filter>
+    </ClInclude>
+    <ClInclude Include="stage2.h">
+      <Filter>mainGame\Scenes\Stages</Filter>
+    </ClInclude>
+    <ClInclude Include="smallTalk.h">
+      <Filter>mainGame\Scenes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="keyManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="gameNode.cpp">
+      <Filter>gameNode</Filter>
+    </ClCompile>
+    <ClCompile Include="mainGame.cpp">
+      <Filter>mainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>UTIL</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>image</Filter>
+    </ClCompile>
+    <ClCompile Include="imageManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="timeManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="txtData.cpp">
+      <Filter>텍스트데이터</Filter>
+    </ClCompile>
+    <ClCompile Include="iniData.cpp">
+      <Filter>iniData</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="soundManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="loading.cpp">
+      <Filter>loading</Filter>
+    </ClCompile>
+    <ClCompile Include="winMain.cpp">
+      <Filter>리소스 파일\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="progressBar.cpp">
+      <Filter>프로그래스바</Filter>
+    </ClCompile>
+    <ClCompile Include="animation.cpp">
+      <Filter>애니메이션</Filter>
+    </ClCompile>
+    <ClCompile Include="animationManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="effect.cpp">
+      <Filter>이펙트</Filter>
+    </ClCompile>
+    <ClCompile Include="effectManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>리소스 파일\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="action.cpp">
+      <Filter>액션콜백</Filter>
+    </ClCompile>
+    <ClCompile Include="actionTest.cpp">
+      <Filter>액션콜백</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>mainGame\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="stage1.cpp">
+      <Filter>mainGame\Scenes\Stages</Filter>
+    </ClCompile>
+    <ClCompile Include="cursor.cpp">
+      <Filter>mainGame\오브젝트\Cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="objects.cpp">
+      <Filter>mainGame\오브젝트</Filter>
+    </ClCompile>
+    <ClCompile Include="unitManager.cpp">
+      <Filter>mainGame\오브젝트\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="unitSet.cpp">
+      <Filter>mainGame\오브젝트\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="itemSet.cpp">
+      <Filter>mainGame\오브젝트\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="itemManager.cpp">
+      <Filter>mainGame\오브젝트\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="mapToolScene.cpp">
+      <Filter>mainGame\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="tile.cpp">
+      <Filter>mainGame\오브젝트\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="tileManager.cpp">
+      <Filter>mainGame\오브젝트\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="mainmenu.cpp">
+      <Filter>mainGame\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="intro.cpp">
+      <Filter>mainGame\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="uiManager.cpp">
+      <Filter>mainGame\오브젝트\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_Set.cpp">
+      <Filter>mainGame\오브젝트\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_tileInfo.cpp">
+      <Filter>mainGame\오브젝트\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_command.cpp">
+      <Filter>mainGame\오브젝트\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="customAstar.cpp">
+      <Filter>mainGame\customAstar</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_battleinfo.cpp">
+      <Filter>mainGame\오브젝트\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_turn.cpp">
+      <Filter>mainGame\오브젝트\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="subMaptool.cpp">
+      <Filter>mainGame\MapTool</Filter>
+    </ClCompile>
+    <ClCompile Include="subWin.cpp">
+      <Filter>mainGame\MapTool</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMaptool.cpp">
+      <Filter>mainGame\MapTool</Filter>
+    </ClCompile>
+    <ClCompile Include="stage3.cpp">
+      <Filter>mainGame\Scenes\Stages</Filter>
+    </ClCompile>
+    <ClCompile Include="stage2.cpp">
+      <Filter>mainGame\Scenes\Stages</Filter>
+    </ClCompile>
+    <ClCompile Include="smallTalk.cpp">
+      <Filter>mainGame\Scenes</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

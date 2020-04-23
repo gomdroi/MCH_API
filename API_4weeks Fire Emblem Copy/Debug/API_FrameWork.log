@@ -1,0 +1,22 @@
+﻿  UI_command.cpp
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_command.cpp(58): warning C4244: '=': 'LONG'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_command.cpp(59): warning C4244: '=': 'LONG'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_command.cpp(71): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_command.cpp(73): warning C4244: '=': 'LONG'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_command.cpp(74): warning C4244: '=': 'LONG'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_command.cpp(77): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_command.cpp(120): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_command.cpp(320): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  cursor.cpp
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\cursor.cpp(86): warning C4244: '=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\cursor.cpp(100): warning C4244: '=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\cursor.cpp(197): warning C4244: '인수': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\cursor.cpp(203): warning C4244: '인수': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\cursor.cpp(529): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\cursor.cpp(575): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\cursor.cpp(740): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\cursor.cpp(753): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\cursor.cpp(778): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\cursor.cpp(786): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  코드를 생성하고 있습니다...
+  API_FrameWork.vcxproj -> C:\Users\user\Desktop\개인공부\API_4weeks 파이어 엠블렘 모작\Debug\API_FrameWork.exe

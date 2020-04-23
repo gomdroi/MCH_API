@@ -1,0 +1,510 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="image">
+      <UniqueIdentifier>{90493ec1-622e-4026-89c6-bb32777478f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="keyManager">
+      <UniqueIdentifier>{d5d1f789-9441-4fd9-832b-eedd8e799985}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sound">
+      <UniqueIdentifier>{59f1e1ae-e68e-4682-aa19-5805bb304748}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameNode">
+      <UniqueIdentifier>{eab091e5-d6d0-4ced-96c3-cd1f42dc0dd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame">
+      <UniqueIdentifier>{c9f420ca-b89f-4552-86bd-1f38d9e10f25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="time">
+      <UniqueIdentifier>{758a24ea-b418-419b-89e5-d6459031fd14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="singletonBase">
+      <UniqueIdentifier>{0025e501-e25f-478e-bc2c-41e0d696610f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="text">
+      <UniqueIdentifier>{32222b57-4800-46c3-9fed-8d6222367038}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="iniData">
+      <UniqueIdentifier>{00f20081-9182-4c0d-9b95-2a4f1c6ac5a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene">
+      <UniqueIdentifier>{fefefbfe-f6ad-40cf-b752-e6b516c0f45b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="chracter">
+      <UniqueIdentifier>{ef348bd5-504d-47e2-927a-6a6be0053bc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="chracter\player">
+      <UniqueIdentifier>{0b450e74-a637-499b-8d67-f625df166808}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="loading">
+      <UniqueIdentifier>{c8c02f3e-5db1-4c44-8b94-494c3f5af24d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="progressbar">
+      <UniqueIdentifier>{ba182955-74c9-4cf8-b22e-3e94a70b5fb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="animation">
+      <UniqueIdentifier>{4eb3122c-abf3-41e0-8b65-b9b287f05c8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="camera">
+      <UniqueIdentifier>{ee37199c-bd24-4808-876c-901c440c1da2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene\scenes">
+      <UniqueIdentifier>{8d588b81-d1f4-494d-945a-5b4fdfc29694}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="enemy">
+      <UniqueIdentifier>{78f75fcb-4b21-47cc-a374-b4c9b02a14f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="map">
+      <UniqueIdentifier>{7b52dbf3-657c-434d-b6bc-b060fe7b3271}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="item">
+      <UniqueIdentifier>{d04c2b5e-f6fb-497e-8628-62b9cd077501}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inventory">
+      <UniqueIdentifier>{9db3998f-b081-4469-9220-e9f1d3f7820e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{9500ef47-8bb3-46cd-bd4a-a26ca7541ae8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\playerUi">
+      <UniqueIdentifier>{7eb22bb1-de8b-4784-8c4b-4b3cdcdf4816}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UTlL">
+      <UniqueIdentifier>{266dc4d9-ebaf-471d-b21f-4bd37d5183d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="equipment">
+      <UniqueIdentifier>{e8c24e21-0a40-4585-bf78-e4e76bcd2255}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="equipment\kind">
+      <UniqueIdentifier>{6053a6a6-5f6b-4b22-a5d1-b5470d9b7609}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shop">
+      <UniqueIdentifier>{358c6b7e-1ed0-4a83-a77c-827bf039aeb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene\inGameScene">
+      <UniqueIdentifier>{9e896c78-a13a-4cdb-b4e3-7a909a6e7e4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="enemy\enemy Kinds">
+      <UniqueIdentifier>{eef5562b-6d10-4be5-9872-cd6ac84f344f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="effect">
+      <UniqueIdentifier>{ade5a21a-eb56-4ccc-9d07-6441fefdfe24}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="randomFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>image</Filter>
+    </ClInclude>
+    <ClInclude Include="imageManager.h">
+      <Filter>image</Filter>
+    </ClInclude>
+    <ClInclude Include="keyManager.h">
+      <Filter>keyManager</Filter>
+    </ClInclude>
+    <ClInclude Include="mainGame.h">
+      <Filter>mainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="gameNode.h">
+      <Filter>gameNode</Filter>
+    </ClInclude>
+    <ClInclude Include="singletonBase.h">
+      <Filter>singletonBase</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>time</Filter>
+    </ClInclude>
+    <ClInclude Include="txtData.h">
+      <Filter>text</Filter>
+    </ClInclude>
+    <ClInclude Include="timeManager.h">
+      <Filter>time</Filter>
+    </ClInclude>
+    <ClInclude Include="iniData.h">
+      <Filter>iniData</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneManager.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="character.h">
+      <Filter>chracter</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>chracter\player</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>sound</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="loading.h">
+      <Filter>loading</Filter>
+    </ClInclude>
+    <ClInclude Include="progressbar.h">
+      <Filter>progressbar</Filter>
+    </ClInclude>
+    <ClInclude Include="animation.h">
+      <Filter>animation</Filter>
+    </ClInclude>
+    <ClInclude Include="animationmanager.h">
+      <Filter>animation</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>camera</Filter>
+    </ClInclude>
+    <ClInclude Include="loadingScene.h">
+      <Filter>scene\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="enemySet.h">
+      <Filter>enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="tileMap.h">
+      <Filter>map</Filter>
+    </ClInclude>
+    <ClInclude Include="mapToolScene.h">
+      <Filter>scene\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="item.h">
+      <Filter>item</Filter>
+    </ClInclude>
+    <ClInclude Include="inventory.h">
+      <Filter>inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="inventoryManager.h">
+      <Filter>inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="uiManager.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="playerUi.h">
+      <Filter>UI\playerUi</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>UTlL</Filter>
+    </ClInclude>
+    <ClInclude Include="startScene.h">
+      <Filter>scene\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="equipment.h">
+      <Filter>equipment</Filter>
+    </ClInclude>
+    <ClInclude Include="equipmentManager.h">
+      <Filter>equipment</Filter>
+    </ClInclude>
+    <ClInclude Include="Arrow.h">
+      <Filter>equipment\kind</Filter>
+    </ClInclude>
+    <ClInclude Include="Boom.h">
+      <Filter>equipment\kind</Filter>
+    </ClInclude>
+    <ClInclude Include="Boomerang.h">
+      <Filter>equipment\kind</Filter>
+    </ClInclude>
+    <ClInclude Include="soldier.h">
+      <Filter>enemy\enemy Kinds</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyManager.h">
+      <Filter>enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="shop.h">
+      <Filter>shop</Filter>
+    </ClInclude>
+    <ClInclude Include="homeScene.h">
+      <Filter>scene\inGameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="shopScene.h">
+      <Filter>scene\inGameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="malmijal.h">
+      <Filter>enemy\enemy Kinds</Filter>
+    </ClInclude>
+    <ClInclude Include="eyeman.h">
+      <Filter>enemy\enemy Kinds</Filter>
+    </ClInclude>
+    <ClInclude Include="snake.h">
+      <Filter>enemy\enemy Kinds</Filter>
+    </ClInclude>
+    <ClInclude Include="bat.h">
+      <Filter>enemy\enemy Kinds</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneAll.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="gameScene1.h">
+      <Filter>scene\inGameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="gameScene2.h">
+      <Filter>scene\inGameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="gameScene4.h">
+      <Filter>scene\inGameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="gameScene3.h">
+      <Filter>scene\inGameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="bossScene2.h">
+      <Filter>scene\inGameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="agahnim_boss.h">
+      <Filter>enemy\enemy Kinds</Filter>
+    </ClInclude>
+    <ClInclude Include="worm_boss.h">
+      <Filter>enemy\enemy Kinds</Filter>
+    </ClInclude>
+    <ClInclude Include="playerInteractionObject.h">
+      <Filter>equipment\kind</Filter>
+    </ClInclude>
+    <ClInclude Include="itemManager.h">
+      <Filter>item</Filter>
+    </ClInclude>
+    <ClInclude Include="dungeon1F.h">
+      <Filter>scene\inGameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="dungeon2F.h">
+      <Filter>scene\inGameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="effect.h">
+      <Filter>effect</Filter>
+    </ClInclude>
+    <ClInclude Include="effectManager.h">
+      <Filter>effect</Filter>
+    </ClInclude>
+    <ClInclude Include="agahnim_bolt.h">
+      <Filter>equipment\kind</Filter>
+    </ClInclude>
+    <ClInclude Include="drawShapesFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="soundScene.h">
+      <Filter>scene\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="agahnim_bubble.h">
+      <Filter>equipment\kind</Filter>
+    </ClInclude>
+    <ClInclude Include="agahnim_smallbubble.h">
+      <Filter>equipment\kind</Filter>
+    </ClInclude>
+    <ClInclude Include="endingScene.h">
+      <Filter>scene\scenes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>image</Filter>
+    </ClCompile>
+    <ClCompile Include="imageManager.cpp">
+      <Filter>image</Filter>
+    </ClCompile>
+    <ClCompile Include="keyManager.cpp">
+      <Filter>keyManager</Filter>
+    </ClCompile>
+    <ClCompile Include="mainGame.cpp">
+      <Filter>mainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="gameNode.cpp">
+      <Filter>gameNode</Filter>
+    </ClCompile>
+    <ClCompile Include="winMain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>time</Filter>
+    </ClCompile>
+    <ClCompile Include="txtData.cpp">
+      <Filter>text</Filter>
+    </ClCompile>
+    <ClCompile Include="timeManager.cpp">
+      <Filter>time</Filter>
+    </ClCompile>
+    <ClCompile Include="iniData.cpp">
+      <Filter>iniData</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneManager.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="character.cpp">
+      <Filter>chracter</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>chracter\player</Filter>
+    </ClCompile>
+    <ClCompile Include="sound.cpp">
+      <Filter>sound</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="loading.cpp">
+      <Filter>loading</Filter>
+    </ClCompile>
+    <ClCompile Include="progressbar.cpp">
+      <Filter>progressbar</Filter>
+    </ClCompile>
+    <ClCompile Include="animation.cpp">
+      <Filter>animation</Filter>
+    </ClCompile>
+    <ClCompile Include="animationmanager.cpp">
+      <Filter>animation</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>camera</Filter>
+    </ClCompile>
+    <ClCompile Include="loadingScene.cpp">
+      <Filter>scene\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="enemySet.cpp">
+      <Filter>enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="tileMap.cpp">
+      <Filter>map</Filter>
+    </ClCompile>
+    <ClCompile Include="mapToolScene.cpp">
+      <Filter>scene\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="item.cpp">
+      <Filter>item</Filter>
+    </ClCompile>
+    <ClCompile Include="inventory.cpp">
+      <Filter>inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="inventoryManager.cpp">
+      <Filter>inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="uiManager.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="playerUi.cpp">
+      <Filter>UI\playerUi</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>UTlL</Filter>
+    </ClCompile>
+    <ClCompile Include="startScene.cpp">
+      <Filter>scene\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="equipment.cpp">
+      <Filter>equipment</Filter>
+    </ClCompile>
+    <ClCompile Include="equipmentManager.cpp">
+      <Filter>equipment</Filter>
+    </ClCompile>
+    <ClCompile Include="Arrow.cpp">
+      <Filter>equipment\kind</Filter>
+    </ClCompile>
+    <ClCompile Include="Boom.cpp">
+      <Filter>equipment\kind</Filter>
+    </ClCompile>
+    <ClCompile Include="Boomerang.cpp">
+      <Filter>equipment\kind</Filter>
+    </ClCompile>
+    <ClCompile Include="soldier.cpp">
+      <Filter>enemy\enemy Kinds</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyManager.cpp">
+      <Filter>enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="shop.cpp">
+      <Filter>shop</Filter>
+    </ClCompile>
+    <ClCompile Include="homeScene.cpp">
+      <Filter>scene\inGameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="shopScene.cpp">
+      <Filter>scene\inGameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="snake.cpp">
+      <Filter>enemy\enemy Kinds</Filter>
+    </ClCompile>
+    <ClCompile Include="eyeman.cpp">
+      <Filter>enemy\enemy Kinds</Filter>
+    </ClCompile>
+    <ClCompile Include="malmijal.cpp">
+      <Filter>enemy\enemy Kinds</Filter>
+    </ClCompile>
+    <ClCompile Include="bat.cpp">
+      <Filter>enemy\enemy Kinds</Filter>
+    </ClCompile>
+    <ClCompile Include="gameScene1.cpp">
+      <Filter>scene\inGameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="gameScene2.cpp">
+      <Filter>scene\inGameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="gameScene3.cpp">
+      <Filter>scene\inGameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="gameScene4.cpp">
+      <Filter>scene\inGameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="bossScene2.cpp">
+      <Filter>scene\inGameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="worm_boss.cpp">
+      <Filter>enemy\enemy Kinds</Filter>
+    </ClCompile>
+    <ClCompile Include="agahnim_boss.cpp">
+      <Filter>enemy\enemy Kinds</Filter>
+    </ClCompile>
+    <ClCompile Include="playerInteractionObject.cpp">
+      <Filter>equipment\kind</Filter>
+    </ClCompile>
+    <ClCompile Include="itemManager.cpp">
+      <Filter>item</Filter>
+    </ClCompile>
+    <ClCompile Include="dungeon1F.cpp">
+      <Filter>scene\inGameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="dungeon2F.cpp">
+      <Filter>scene\inGameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="effectManager.cpp">
+      <Filter>effect</Filter>
+    </ClCompile>
+    <ClCompile Include="effect.cpp">
+      <Filter>effect</Filter>
+    </ClCompile>
+    <ClCompile Include="agahnim_bolt.cpp">
+      <Filter>equipment\kind</Filter>
+    </ClCompile>
+    <ClCompile Include="soundScene.cpp">
+      <Filter>scene\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="agahnim_bubble.cpp">
+      <Filter>equipment\kind</Filter>
+    </ClCompile>
+    <ClCompile Include="agahnim_smallbubble.cpp">
+      <Filter>equipment\kind</Filter>
+    </ClCompile>
+    <ClCompile Include="endingScene.cpp">
+      <Filter>scene\scenes</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

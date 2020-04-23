@@ -1,0 +1,14 @@
+﻿  bat.cpp
+c:\users\user\desktop\개인공부\api_team_4weeks 젤다의전설 신들의 트라이포스 모작\api_framework_set\bat.cpp(57): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\개인공부\api_team_4weeks 젤다의전설 신들의 트라이포스 모작\api_framework_set\bat.cpp(58): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\개인공부\api_team_4weeks 젤다의전설 신들의 트라이포스 모작\api_framework_set\bat.cpp(59): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\개인공부\api_team_4weeks 젤다의전설 신들의 트라이포스 모작\api_framework_set\bat.cpp(75): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\개인공부\api_team_4weeks 젤다의전설 신들의 트라이포스 모작\api_framework_set\bat.cpp(79): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\개인공부\api_team_4weeks 젤다의전설 신들의 트라이포스 모작\api_framework_set\bat.cpp(81): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\개인공부\api_team_4weeks 젤다의전설 신들의 트라이포스 모작\api_framework_set\bat.cpp(92): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\개인공부\api_team_4weeks 젤다의전설 신들의 트라이포스 모작\api_framework_set\bat.cpp(107): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\개인공부\api_team_4weeks 젤다의전설 신들의 트라이포스 모작\api_framework_set\bat.cpp(111): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\개인공부\api_team_4weeks 젤다의전설 신들의 트라이포스 모작\api_framework_set\bat.cpp(112): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\개인공부\api_team_4weeks 젤다의전설 신들의 트라이포스 모작\api_framework_set\bat.cpp(140): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\개인공부\api_team_4weeks 젤다의전설 신들의 트라이포스 모작\api_framework_set\bat.cpp(232): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  API_FrameWork_Set.vcxproj -> C:\Users\user\Desktop\개인공부\API_Team_4Weeks 젤다의전설 신들의 트라이포스 모작\x64\Debug\API_FrameWork_Set.exe

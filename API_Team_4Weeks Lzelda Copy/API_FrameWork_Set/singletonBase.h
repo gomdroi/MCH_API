@@ -1,0 +1,52 @@
+#pragma once
+
+//=================================================
+//	## singletonBase ##
+//=================================================
+
+template <typename T>
+
+class singletonBase
+{
+
+protected:
+	//ΩÃ±€≈Ê ¿ŒΩ∫≈œΩ∫ º±æ
+
+	static T* singleton;
+
+	singletonBase() {};
+	~singletonBase() {};
+public:
+
+	static T* getSingleton();
+	void releaseSingleton();
+
+};
+
+//ΩÃ±€≈Ê ¿ŒΩ∫≈œΩ∫ º±æ
+template <typename T>
+T* singletonBase<T>::singleton = nullptr;
+
+
+//ΩÃ±€≈Ê ∞¥√º ∞°¡Æø¿±‚
+template<typename T>
+T* singletonBase<T>::getSingleton()
+{
+
+	//ΩÃ±€≈Ê ∞¥√º∞° æ¯¿∏∏È ªı∑Œ ª˝º∫«ÿ∂Û
+	if (!singleton)singleton = new T;
+
+	return singleton;
+}
+
+//«ÿ¡¶
+template<typename T>
+void singletonBase<T>::releaseSingleton()
+{
+	//ΩÃ±€≈Ê¿Ã ¿÷¥Ÿ∏È
+	if (singleton)
+	{
+		delete singleton;
+		singleton = nullptr;
+	}
+}

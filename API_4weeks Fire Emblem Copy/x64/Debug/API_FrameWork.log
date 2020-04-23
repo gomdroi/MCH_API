@@ -1,0 +1,185 @@
+﻿  action.cpp
+  effectManager.cpp
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\effectmanager.cpp(16): error C2664: 'void effectManager::addEffect(std::string,char *,int,int,int,int,int,float,int)': 인수 2을(를) 'const char [7]'에서 'char *'(으)로 변환할 수 없습니다.
+  c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\effectmanager.cpp(16): note: 문자열 리터럴로부터의 변환은 const 한정자가 손실됩니다(/Zc:strictStrings 참조).
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\effectmanager.cpp(17): error C2664: 'void effectManager::addEffect(std::string,char *,int,int,int,int,int,float,int)': 인수 2을(를) 'const char [7]'에서 'char *'(으)로 변환할 수 없습니다.
+  c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\effectmanager.cpp(17): note: 문자열 리터럴로부터의 변환은 const 한정자가 손실됩니다(/Zc:strictStrings 참조).
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\effectmanager.cpp(18): error C2664: 'void effectManager::addEffect(std::string,char *,int,int,int,int,int,float,int)': 인수 2을(를) 'const char [9]'에서 'char *'(으)로 변환할 수 없습니다.
+  c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\effectmanager.cpp(18): note: 문자열 리터럴로부터의 변환은 const 한정자가 손실됩니다(/Zc:strictStrings 참조).
+  gameNode.cpp
+  image.cpp
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\image.cpp(98): error C2664: 'HANDLE LoadImageW(HINSTANCE,LPCWSTR,UINT,int,int,UINT)': 인수 2을(를) 'const char *'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\image.cpp(102): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\image.cpp(108): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\image.cpp(160): error C2664: 'HANDLE LoadImageW(HINSTANCE,LPCWSTR,UINT,int,int,UINT)': 인수 2을(를) 'const char *'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\image.cpp(160): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\image.cpp(167): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\image.cpp(220): error C2664: 'HANDLE LoadImageW(HINSTANCE,LPCWSTR,UINT,int,int,UINT)': 인수 2을(를) 'const char *'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\image.cpp(225): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\image.cpp(236): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\image.cpp(289): error C2664: 'HANDLE LoadImageW(HINSTANCE,LPCWSTR,UINT,int,int,UINT)': 인수 2을(를) 'const char *'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\image.cpp(294): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\image.cpp(308): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\image.cpp(718): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\image.cpp(723): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\image.cpp(730): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  imageManager.cpp
+  iniData.cpp
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\inidata.cpp(43): error C2664: 'DWORD GetCurrentDirectoryW(DWORD,LPWSTR)': 인수 2을(를) 'char [256]'에서 'LPWSTR'(으)로 변환할 수 없습니다.
+  c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\inidata.cpp(43): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\inidata.cpp(52): error C2664: 'BOOL WritePrivateProfileStringW(LPCWSTR,LPCWSTR,LPCWSTR,LPCWSTR)': 인수 1을(를) 'char *'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\inidata.cpp(57): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\inidata.cpp(40): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: 'sprintf' 선언을 참조하십시오.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\inidata.cpp(44): error C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(90): note: 'strcat' 선언을 참조하십시오.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\inidata.cpp(72): error C2664: 'DWORD GetCurrentDirectoryW(DWORD,LPWSTR)': 인수 2을(를) 'char [256]'에서 'LPWSTR'(으)로 변환할 수 없습니다.
+  c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\inidata.cpp(72): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\inidata.cpp(76): error C2664: 'DWORD GetPrivateProfileStringW(LPCWSTR,LPCWSTR,LPCWSTR,LPWSTR,DWORD,LPCWSTR)': 인수 1을(를) 'char *'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\inidata.cpp(82): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\inidata.cpp(96): error C2664: 'DWORD GetCurrentDirectoryW(DWORD,LPWSTR)': 인수 2을(를) 'char [256]'에서 'LPWSTR'(으)로 변환할 수 없습니다.
+  c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\inidata.cpp(96): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\inidata.cpp(99): error C2664: 'UINT GetPrivateProfileIntW(LPCWSTR,LPCWSTR,INT,LPCWSTR)': 인수 1을(를) 'char *'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\inidata.cpp(99): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+  intro.cpp
+  loading.cpp
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\loading.cpp(43): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\loading.cpp(44): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\loading.cpp(79): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\loading.cpp(80): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\loading.cpp(108): error C2664: 'HRESULT progressBar::init(char *,char *,float,float,int,int)': 인수 1을(를) 'const char [28]'에서 'char *'(으)로 변환할 수 없습니다.
+  c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\loading.cpp(108): note: 문자열 리터럴로부터의 변환은 const 한정자가 손실됩니다(/Zc:strictStrings 참조).
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\loading.cpp(194): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\loading.cpp(200): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\loading.cpp(207): warning C4244: '인수': 'unsigned __int64'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\loading.cpp(207): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  mainGame.cpp
+  MainMaptool.cpp
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\mainmaptool.cpp(229): error C2664: 'HANDLE CreateFileW(LPCWSTR,DWORD,DWORD,LPSECURITY_ATTRIBUTES,DWORD,DWORD,HANDLE)': 인수 1을(를) 'const char [16]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\mainmaptool.cpp(229): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\mainmaptool.cpp(232): error C2664: 'HANDLE CreateFileW(LPCWSTR,DWORD,DWORD,LPSECURITY_ATTRIBUTES,DWORD,DWORD,HANDLE)': 인수 1을(를) 'const char [16]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\mainmaptool.cpp(232): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\mainmaptool.cpp(235): error C2664: 'HANDLE CreateFileW(LPCWSTR,DWORD,DWORD,LPSECURITY_ATTRIBUTES,DWORD,DWORD,HANDLE)': 인수 1을(를) 'const char [16]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\mainmaptool.cpp(235): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\mainmaptool.cpp(241): warning C4267: '인수': 'size_t'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\mainmaptool.cpp(249): warning C4267: '인수': 'size_t'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  mainmenu.cpp
+  subMaptool.cpp
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\submaptool.cpp(124): error C2664: 'HFONT CreateFontW(int,int,int,int,int,DWORD,DWORD,DWORD,DWORD,DWORD,DWORD,DWORD,DWORD,LPCWSTR)': 인수 14을(를) 'const char [9]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\submaptool.cpp(124): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\submaptool.cpp(129): error C2664: 'int DrawTextW(HDC,LPCWSTR,int,LPRECT,UINT)': 인수 2을(를) 'char [256]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\submaptool.cpp(129): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+  subWin.cpp
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\subwin.cpp(166): error C2440: '=': 'const char [11]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\subwin.cpp(166): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\subwin.cpp(188): error C2664: 'HWND CreateWindowExW(DWORD,LPCWSTR,LPCWSTR,DWORD,int,int,int,int,HWND,HMENU,HINSTANCE,LPVOID)': 인수 2을(를) 'const char [11]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\subwin.cpp(190): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+  tile.cpp
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\tile.cpp(93): warning C4244: '인수': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\tile.cpp(96): error C2664: 'BOOL TextOutW(HDC,int,int,LPCWSTR,int)': 인수 4을(를) 'char [256]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\tile.cpp(96): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\tile.cpp(98): error C2664: 'BOOL TextOutW(HDC,int,int,LPCWSTR,int)': 인수 4을(를) 'char [256]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\tile.cpp(98): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\tile.cpp(100): error C2664: 'BOOL TextOutW(HDC,int,int,LPCWSTR,int)': 인수 4을(를) 'char [256]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\tile.cpp(100): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\tile.cpp(105): warning C4244: '인수': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\tile.cpp(109): warning C4244: '인수': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\tile.cpp(113): warning C4244: '인수': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  tileManager.cpp
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\tilemanager.cpp(22): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\tilemanager.cpp(23): warning C4244: '인수': 'const FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\tilemanager.cpp(42): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\tilemanager.cpp(43): warning C4244: '인수': 'const FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\tilemanager.cpp(55): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\tilemanager.cpp(56): warning C4244: '인수': 'const FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\tilemanager.cpp(68): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\tilemanager.cpp(69): warning C4244: '인수': 'const FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  timeManager.cpp
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\timemanager.cpp(50): error C2664: 'BOOL TextOutW(HDC,int,int,LPCWSTR,int)': 인수 4을(를) 'char [256]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\timemanager.cpp(50): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\timemanager.cpp(54): error C2664: 'BOOL TextOutW(HDC,int,int,LPCWSTR,int)': 인수 4을(를) 'char [256]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\timemanager.cpp(54): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\timemanager.cpp(58): error C2664: 'BOOL TextOutW(HDC,int,int,LPCWSTR,int)': 인수 4을(를) 'char [256]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\timemanager.cpp(58): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+  timer.cpp
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\timer.cpp(100): error C2664: 'int wsprintfW(LPWSTR,LPCWSTR,...)': 인수 1을(를) 'char *'에서 'LPWSTR'(으)로 변환할 수 없습니다.
+  c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\timer.cpp(100): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+  txtData.cpp
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\txtdata.cpp(26): error C2664: 'HANDLE CreateFileW(LPCWSTR,DWORD,DWORD,LPSECURITY_ATTRIBUTES,DWORD,DWORD,HANDLE)': 인수 1을(를) 'char *'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\txtdata.cpp(33): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\txtdata.cpp(50): error C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(90): note: 'strcat' 선언을 참조하십시오.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\txtdata.cpp(65): error C2664: 'HANDLE CreateFileW(LPCWSTR,DWORD,DWORD,LPSECURITY_ATTRIBUTES,DWORD,DWORD,HANDLE)': 인수 1을(를) 'char *'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\txtdata.cpp(72): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\txtdata.cpp(83): error C2440: '초기화 중': 'const char [2]'에서 'char *'(으)로 변환할 수 없습니다.
+  c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\txtdata.cpp(83): note: 문자열 리터럴로부터의 변환은 const 한정자가 손실됩니다(/Zc:strictStrings 참조).
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\txtdata.cpp(86): error C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(440): note: 'strtok' 선언을 참조하십시오.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\txtdata.cpp(89): error C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(440): note: 'strtok' 선언을 참조하십시오.
+  uiManager.cpp
+  UI_battleinfo.cpp
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_battleinfo.cpp(22): error C2664: 'HRESULT progressBar::init(char *,char *,float,float,int,int)': 인수 1을(를) 'const char [29]'에서 'char *'(으)로 변환할 수 없습니다.
+  c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_battleinfo.cpp(22): note: 문자열 리터럴로부터의 변환은 const 한정자가 손실됩니다(/Zc:strictStrings 참조).
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_battleinfo.cpp(26): error C2664: 'HRESULT progressBar::init(char *,char *,float,float,int,int)': 인수 1을(를) 'const char [29]'에서 'char *'(으)로 변환할 수 없습니다.
+  c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_battleinfo.cpp(26): note: 문자열 리터럴로부터의 변환은 const 한정자가 손실됩니다(/Zc:strictStrings 참조).
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_battleinfo.cpp(40): warning C4244: '인수': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_battleinfo.cpp(45): warning C4244: '인수': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_battleinfo.cpp(57): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_battleinfo.cpp(64): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_battleinfo.cpp(74): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_battleinfo.cpp(81): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_battleinfo.cpp(97): error C2664: 'HFONT CreateFontW(int,int,int,int,int,DWORD,DWORD,DWORD,DWORD,DWORD,DWORD,DWORD,DWORD,LPCWSTR)': 인수 14을(를) 'const char [9]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_battleinfo.cpp(97): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_battleinfo.cpp(109): error C2664: 'int DrawTextW(HDC,LPCWSTR,int,LPRECT,UINT)': 인수 2을(를) 'char *'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_battleinfo.cpp(109): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_battleinfo.cpp(110): error C2664: 'int DrawTextW(HDC,LPCWSTR,int,LPRECT,UINT)': 인수 2을(를) 'char *'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_battleinfo.cpp(110): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_battleinfo.cpp(113): error C2664: 'int DrawTextW(HDC,LPCWSTR,int,LPRECT,UINT)': 인수 2을(를) 'char [256]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_battleinfo.cpp(113): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_battleinfo.cpp(114): error C2664: 'int DrawTextW(HDC,LPCWSTR,int,LPRECT,UINT)': 인수 2을(를) 'char [256]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_battleinfo.cpp(114): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_battleinfo.cpp(118): error C2664: 'int DrawTextW(HDC,LPCWSTR,int,LPRECT,UINT)': 인수 2을(를) 'char *'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_battleinfo.cpp(118): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_battleinfo.cpp(119): error C2664: 'int DrawTextW(HDC,LPCWSTR,int,LPRECT,UINT)': 인수 2을(를) 'char *'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_battleinfo.cpp(119): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_battleinfo.cpp(122): error C2664: 'int DrawTextW(HDC,LPCWSTR,int,LPRECT,UINT)': 인수 2을(를) 'char [256]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_battleinfo.cpp(122): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_battleinfo.cpp(123): error C2664: 'int DrawTextW(HDC,LPCWSTR,int,LPRECT,UINT)': 인수 2을(를) 'char [256]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_battleinfo.cpp(123): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  UI_command.cpp
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_command.cpp(58): warning C4244: '=': 'LONG'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_command.cpp(59): warning C4244: '=': 'LONG'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_command.cpp(73): warning C4244: '=': 'LONG'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_command.cpp(74): warning C4244: '=': 'LONG'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_command.cpp(98): error C2664: 'HFONT CreateFontW(int,int,int,int,int,DWORD,DWORD,DWORD,DWORD,DWORD,DWORD,DWORD,DWORD,LPCWSTR)': 인수 14을(를) 'const char [9]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_command.cpp(98): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_command.cpp(123): error C2664: 'int DrawTextW(HDC,LPCWSTR,int,LPRECT,UINT)': 인수 2을(를) 'char *'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_command.cpp(123): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_command.cpp(132): error C2664: 'int DrawTextW(HDC,LPCWSTR,int,LPRECT,UINT)': 인수 2을(를) 'char [256]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_command.cpp(132): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_command.cpp(133): error C2664: 'int DrawTextW(HDC,LPCWSTR,int,LPRECT,UINT)': 인수 2을(를) 'char [256]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_command.cpp(133): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_command.cpp(134): error C2664: 'int DrawTextW(HDC,LPCWSTR,int,LPRECT,UINT)': 인수 2을(를) 'char [256]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_command.cpp(134): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_command.cpp(135): error C2664: 'int DrawTextW(HDC,LPCWSTR,int,LPRECT,UINT)': 인수 2을(를) 'char [256]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_command.cpp(135): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+  UI_tileInfo.cpp
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_tileinfo.cpp(29): error C2664: 'HRESULT progressBar::init(char *,char *,float,float,int,int)': 인수 1을(를) 'const char [26]'에서 'char *'(으)로 변환할 수 없습니다.
+  c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_tileinfo.cpp(29): note: 문자열 리터럴로부터의 변환은 const 한정자가 손실됩니다(/Zc:strictStrings 참조).
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_tileinfo.cpp(55): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_tileinfo.cpp(92): error C2664: 'HFONT CreateFontW(int,int,int,int,int,DWORD,DWORD,DWORD,DWORD,DWORD,DWORD,DWORD,DWORD,LPCWSTR)': 인수 14을(를) 'const char [9]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_tileinfo.cpp(92): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_tileinfo.cpp(103): error C2664: 'int DrawTextW(HDC,LPCWSTR,int,LPRECT,UINT)': 인수 2을(를) 'char *'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_tileinfo.cpp(103): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_tileinfo.cpp(105): error C2664: 'int DrawTextW(HDC,LPCWSTR,int,LPRECT,UINT)': 인수 2을(를) 'char *'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_tileinfo.cpp(105): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_tileinfo.cpp(106): error C2664: 'int DrawTextW(HDC,LPCWSTR,int,LPRECT,UINT)': 인수 2을(를) 'char *'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_tileinfo.cpp(106): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_tileinfo.cpp(116): error C2664: 'int DrawTextW(HDC,LPCWSTR,int,LPRECT,UINT)': 인수 2을(를) 'char [256]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_tileinfo.cpp(116): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_tileinfo.cpp(117): error C2664: 'int DrawTextW(HDC,LPCWSTR,int,LPRECT,UINT)': 인수 2을(를) 'char *'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  c:\users\user\desktop\개인공부\api_4weeks 파이어 엠블렘 모작\ui_tileinfo.cpp(117): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+  코드를 생성하고 있습니다...
